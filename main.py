@@ -4,6 +4,7 @@ import sys
 import math
 import csv
 
+
 data = pd.read_csv('train.csv', encoding='big5')
 
 data = data.iloc[:, 3:]
